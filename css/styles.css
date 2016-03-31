@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+}
+
+td {
+  border: groove black 3px;
+  width: 200px;
+  height: 200px;
+
+}
+
+table {
+  margin: auto;
+}

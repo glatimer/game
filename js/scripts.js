@@ -1,7 +1,7 @@
 // business logic
-function Player(player1, player2) {
-  this.player1 = player1,
-  this.player2 = player2
+function Player(marker) {
+  this.marker = marker;
+  this.turn = [];
 }
 function Space () {
 
@@ -22,5 +22,9 @@ Player.prototype.mark = function(userInput) {
 $(document).ready(function() {
   $().submit(function(event) {
     event.preventDefault();
+
+    var player1 = new Player("X");
+
+    //need click functions on each cell
   });
 });
