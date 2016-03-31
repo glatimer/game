@@ -11,12 +11,12 @@ Player.prototype.mark = function(userInput) {
 $(document).ready(function() {
   $("button#play").submit(function(event) {
     event.preventDefault();
-    $("#click1").click(function() {
+    $(".cell").click(function() {
 
     })
 
     var player1 = new Player("X");
-    var player2 = new Playwe("O");
+    var player2 = new Player("O");
 
 
     //need click functions on each cell
